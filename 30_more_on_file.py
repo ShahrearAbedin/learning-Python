@@ -1,0 +1,8 @@
+f = open("shadhin.txt")
+f.seek(10)
+print(f.tell())
+print(f.readline())
+# print(f.tell())
+print(f.readline())
+# print(f.tell())
+f.close()

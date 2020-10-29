@@ -8,11 +8,11 @@ if select == 0 or select == 1:
         select = True
     if select == True:
         while rows <= inp:
-            print(rows*"X")
+            print(rows*"*")
             rows += 1
     elif select == False:
         while rows <= inp:
-            print(inp * "X")
+            print(inp * "*")
             inp -= 1
 else:
     print("Something wrong inserted. Please check again")
