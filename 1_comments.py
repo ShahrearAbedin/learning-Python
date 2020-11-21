@@ -20,8 +20,6 @@ end: end argument allows us to put something at the end of the line after it is 
 It simply joins two different print statements using some string or even by space. Example:
 
 """
-import os
-import flask
 
 # print statement for printing strings
 print("Harry is a programmer", end="**")
